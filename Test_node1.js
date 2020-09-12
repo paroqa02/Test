@@ -11,7 +11,7 @@ function searchTextOnGoogle()
 
     //navigate to a url, serach for a text and get title pf page
 
-    driver.get('https://www.youtube.com').then(function()
+    driver.get('https://www.lambdatest.com').then(function()
     {
         driver.findElement(WebDriver.By.linkText('Automation')).click().then(function()
 
